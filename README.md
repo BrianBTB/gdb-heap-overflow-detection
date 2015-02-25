@@ -3,7 +3,7 @@ Detects heap overflows using GDB. Provides extended breakpoint objects to assist
 
 USE:
 
-gdb -q -x overflow-detection.py
+gdb -q -x detect_overflow.py
 
 
 Edit do-input.py to trigger the overflow in your application. If the overflow is directly from an input string, you can use getString to generate a pattern and it will tell you the offset of the next chunk metadata with padding/allignment detection.
