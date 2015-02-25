@@ -48,4 +48,4 @@ def getString(length):
     			count2 = 0
     return string
 
-print "A"*264
+print getString(300)
