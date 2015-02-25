@@ -2,8 +2,7 @@
 import gdb
 import sys
 
-
-#needs a source
+#orginal source: https://github.com/gbusto/Security/blob/master/OffsetFinder/
 def getOffset(pattern, length):
     cap_letters = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J']
     low_letters	= ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j']
